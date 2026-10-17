@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Profile Cards</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Our Team</h1>
+    <p class="subtitle">Meet Our Creative Developers</p>
+
+    <section class="profile-container">
+
+        <!-- Profile Card 1 -->
+        <div class="profile-card">
+
+            <img
+                src="https://i.pravatar.cc/150?img=47"
+                alt="Profile picture of Priya"
+                class="profile-img"
+            >
+
+            <h2>Priya</h2>
+
+            <p class="description">
+                BCA student passionate about web development.
+            </p>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <button onclick="viewProfile('Priya')">
+                View Profile
+            </button>
+
+            <p id="Priya-info" class="profile-info"></p>
+
+        </div>
+
+
+        <!-- Profile Card 2 -->
+        <div class="profile-card">
+
+            <img
+                src="https://i.pravatar.cc/150?img=44"
+                alt="Profile picture of Arun"
+                class="profile-img"
+            >
+
+            <h2>Arun</h2>
+
+            <p class="description">
+                Software developer interested in Python and AI.
+            </p>
+
+            <div class="skills">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>SQL</span>
+            </div>
+
+            <button onclick="viewProfile('Arun')">
+                View Profile
+            </button>
+
+            <p id="Arun-info" class="profile-info"></p>
+
+        </div>
+
+
+        <!-- Profile Card 3 -->
+        <div class="profile-card">
+
+            <img
+                src="https://i.pravatar.cc/150?img=49"
+                alt="Profile picture of Divya"
+                class="profile-img"
+            >
+
+            <h2>Divya</h2>
+
+            <p class="description">
+                UI/UX designer who loves creating beautiful designs.
+            </p>
+
+            <div class="skills">
+                <span>UI/UX</span>
+                <span>Figma</span>
+                <span>Design</span>
+            </div>
+
+            <button onclick="viewProfile('Divya')">
+                View Profile
+            </button>
+
+            <p id="Divya-info" class="profile-info"></p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
